@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    box-sizing: border-box;
+    font-family: 'Nunito' sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1{
+    color: rgb(8, 8, 8);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Nunito' serif;
+    padding: 8px;
+    text-align: center;
+}
+/* header part css style start*/
+img {
+    border: 0;
+}
+#header {
+    background-color: #f3e7f7;
+    padding: 10px 0px;
+    display: flex;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0.1);
+}
+.navbar li{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.navbar li a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    font-family: serif;
+    color: rgb(44, 7, 7);
+    /* padding: 5px 0px 0px; */
+    margin: 0px;
+    font-size: 20px;
+}
+.icon li{
+    display: flex;
+    float: left;
+    padding: 20px;
+}
+.icon li #drop-bars{
+    display: none;
+}
+.icon li:hover a{
+    transform: rotate(360deg);
+}
+.navbar li a i{
+    color: rgb(16, 16, 141);
+}
+.navbar li a.active,
+.navbar li:hover a{
+    color: rgb(9, 9, 126);
+    transition: all linear .3s;
+}
+.navbar li:hover a::after{
+    content: "";
+    background-color: rgb(9, 9, 126);
+    height: 2px;
+    width: 35%;
+    bottom: -4px;
+    left: 15px;
+    position: absolute;
+}
+/* sec header part css */
+#sec-header{
+    background-image: url(../images/OS.png);
+    /* padding: 20px; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sec-cont h4{
+    color: rgb(250, 244, 244);
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Nunito' serif;
+    padding: 10px;
+    text-align: left;
+}
+.sec-cont h1{
+    color: rgb(46, 5, 5);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Nunito' serif;
+    padding: 5px;
+    text-align: left;
+}
+.sec-cont {
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 20px;
+    margin: 150px 0px;
+    box-shadow: 0px 3px 20px rgb(0, 0, 0.2);
+    border-radius: 20%;
+}
+.sec-cont p{
+    color: rgb(250, 244, 244);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Nunito' serif;
+    padding: 10px;
+    text-align: left;
+}
+
+/* css about style part start*/
+#bannar{
+    margin: 50px 0px;
+}
+.bann-con img{
+    margin: 100px 0px 30px;
+}
+.about {
+    /* margin: 60px; */
+}
+.about img{
+    padding-bottom: 30px;
+}
+.about h1{
+    color: rgb(223, 185, 185);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Nunito' serif;
+    text-align: left;
+}
+.abt-con{
+    margin-top: 60px;
+}
+.about p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito' serif;
+    text-align: left;
+}
+
+/* service CSS style part start */
+#services{
+    margin: 50px 0px;
+}
+.servise-hdr {
+    text-align: center;
+}
+.servise-hdr img{
+    margin: -32px 0px 0px -80px;
+}
+.servise-cont{
+    background-color: rgba(230, 185, 185, 0.438);
+    border-radius: 50px;
+    padding: 20px 0px;
+}
+.servise-cont{
+    margin: 20px;
+}
+.servise-cont a{
+    text-align: center;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 40%;
+    height: 40px;
+    width: 40px;
+    /* line-height: 40px; */
+    margin-left: 100px;
+    padding: 8px;
+}
+.servise-cont:hover a{
+    background: rgb(167, 180, 180);
+    transition: all linear .3s;
+}
+.servise-cont a i{
+    text-align: center;
+    padding: 20px 8px;
+}
+.servise-cont h3{
+    color: #000;
+    text-align: center;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.servise-cont p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito' serif;
+    text-align: center;
+}
+/* portfolio CSS part start */
+#portfolio{
+    margin: 60px 0px;
+}
+.portfolio-hdr {
+    text-align: center;
+}
+.portfolio-hdr img{
+    margin: -32px 0px 0px -127px;
+}
+.mar_bt_30{
+    margin-bottom: 30px;
+}
+.big_img,
+.small_img{
+    position: relative;
+}
+.big_img img,
+.small_img img{
+    width: 100%;
+    margin: 0px;
+}
+.overlay_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.overlay_img a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.overlay_img a i{
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.small_img:hover .overlay_img,
+.big_img:hover .overlay_img{
+    transform: scale(1);
+    transition:  all linear .3s;
+}
+.mar_bt_30{
+    margin: 30px;
+}
+/* team css style part start */
+#team{
+    margin: 60px 0px;
+    text-align: center;
+}
+.team-hdr img{
+    margin: -32px 0px 0px -90px;
+}
+.team-cont{
+    position: relative;
+}
+.team-cont img{
+    width: 100%;
+    margin: 0px;
+}
+.team-overlay{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: scale(0);
+    transition: all linear .3s;
+    background: rgba(0, 0, 0, 0.548);
+    height: 100%;
+    width: 15%;
+    text-align: center;
+}
+.team-overlay a{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    transition: all linear .3s;
+    background: rgb(223, 196, 196);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+.team-overlay a:hover{
+    background: rgb(115, 115, 214);
+}
+.tm:hover .team-overlay {
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.team-overlay a i{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+.tm h4{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0px 0px;
+}
+.tm p{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* testimonail CSS style part start */
+#testimonail{
+    padding: 50px 0px;
+}
+.test_hdr{
+    text-align: center;
+}
+.test_hdr h1{
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: serif;
+}
+.test_hdr img{
+    margin: -30px 0px 0px -165px;
+}
+.test_conts{
+    text-align: center;
+}
+.test_cont{
+    background-color: #bedeec;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+.test_cont::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -11px;
+    height: 20px;
+    width: 20px;
+    /* transform: rotate(45deg); */
+    transform: translateX(-50%) rotate(45deg);
+    background: #bedeec;
+}

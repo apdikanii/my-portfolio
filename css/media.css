@@ -1,0 +1,103 @@
+/* all responsive part css start */
+
+/*  media start of large/1200px   */
+
+@media (min-width: 1200px) {}
+
+
+/* media start of meidum/1199px */
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .navbar li {
+        margin-left: 49px;
+        position: relative;
+    }
+    .services img {
+        margin: -73px 8px 59px 160px;
+    }
+    .portifolio-header img {
+        margin: -78px 0px 57px 152px;
+    }
+}
+
+/* media start of tab/991px */
+
+@media (min-width: 768px) and (max-width:991px) {
+    .icon li #drop-bars{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .icon {
+        margin-left: 50px;
+    }
+    #header .navbar {
+        position: absolute;
+        top: 100%; left: 0px; right: 0px;
+        margin: 0px;
+        width: 100%;
+        line-height: 100%;
+        background: rgb(236, 223, 223);
+        padding: 15px;
+        overflow: hidden;
+        transition: max-height .5s;
+    }
+    #header .navbar li{
+        display: block;
+        margin: 5px 100px;
+    }
+    .sec-cont {
+        background-color: rgba(0, 0, 0, 0.39);
+        padding: 0px;
+    }
+}
+/* media start of small mobile/766px */
+
+@media (max-width: 760px) {
+    .sec-cont {
+        background-color: rgba(0, 0, 0, 0.39);
+        padding: 10px;
+        margin: 150px 113px;
+        box-shadow: 0px 3px 20px rgb(0 0 0);
+        border-radius: 20%;
+    }
+}
+/* media start of small mobile/575px */
+
+@media (max-width: 575px) {
+    .sec-cont {
+        background-color: rgba(0, 0, 0, 0.39);
+        padding: 0px;
+        margin: 140px 117px;
+    }
+    .header-cont p {
+        padding-top: 9px;
+    }
+    .header-cont ul li {
+        margin-left: 8px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .overlay {
+        padding: 100px 0px;
+    }
+    .bannar-cont h1 {
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+    #about_us {
+        padding-top: 50px;
+    }
+    .common_heading img {
+        margin: -37px 0px 0px -35px;
+    }
+    .about-conts img {
+        margin-top: 22px;
+        margin-bottom: 50px;
+    }
+    .footer-2 a p {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+}

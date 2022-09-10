@@ -38,6 +38,7 @@ $(document).ready(function(){
       ]
     });
 
+    
     $('.sliders-testimonial').slick({
       slidesToShow: 2,
       slidesToScroll: 1,

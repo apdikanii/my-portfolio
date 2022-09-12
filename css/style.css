@@ -331,17 +331,18 @@ img {
 #testimonail{
     padding: 50px 0px;
 }
-.test_hdr{
-    text-align: center;
-}
 .test_hdr h1{
     color: #000;
     font-size: 35px;
     font-weight: 700;
     font-family: serif;
 }
+.test_conts img{
+    text-align: center;
+    margin-left: 150px;
+}
 .test_hdr img{
-    margin: -30px 0px 0px -165px;
+    margin: -30px 0px 0px 150px;
 }
 .test_conts{
     text-align: center;
@@ -352,15 +353,16 @@ img {
     border-radius: 20px;
     padding: 30px;
     position: relative;
+    margin-left: 50px;
 }
 .test_cont::after{
     content: '';
     position: absolute;
-    left: 50%;
+    left: 25%;
     top: -11px;
     height: 20px;
     width: 20px;
-    /* transform: rotate(45deg); */
+    transform: rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
     background: #bedeec;
 }
